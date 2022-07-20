@@ -1,0 +1,12 @@
+#observability : poder analisar o comportamento de uma aplicação a partir das saídas
+  - metrics: valores gerados que determinam um estado
+  - logs: informações geradas pela aplicação
+  - tracing: caminho que a aplicação percorreu até atingitr um determinado estado
+#elasticstack
+  #elk stack:
+    #elasticsearch : search engine e analytics
+    #logstash (entrando em desuso) : processador / coletor de dados em tempo real, através de pipelines que conseguem receber, transformar e enviar dados simultaneament
+    #kibana : permite usuários visualizarem os dados do elasticsearch em diversas perspectivas
+    - diferença para o elasticstack: 
+      - beats: lightweight data shipper, agente coletor de dados
+#terraform

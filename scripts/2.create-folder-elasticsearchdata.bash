@@ -1,0 +1,1 @@
+mkdir elasticsearch_data
